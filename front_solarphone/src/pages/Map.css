@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.marker {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiniloo.com%2Fe-shop%2F2235-pomme-de-pin.html&psig=AOvVaw1sWJha3UkfBu_fFjs_wywg&ust=1653820136727000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNCQkJn-gfgCFQAAAAAdAAAAABAD');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
